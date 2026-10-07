@@ -2,6 +2,8 @@
 
 Dataset derivado para exercícios de **classificação de texto**: dado um trecho, identificar de qual romance de Machado de Assis ele veio.
 
+Clique [aqui](https://github.com/unicamp-dl/ia025_machado_livros/releases/tag/v1.0) para baixar os dados. 
+
 Há duas versões paralelas dos mesmos oito romances:
 
 | Pasta | Conteúdo |
