@@ -1,0 +1,112 @@
+{
+  "source": "projetomachado/textonormalizado1000.txt",
+  "n_novels": 8,
+  "name_token": "[NOME]",
+  "note": "Raw slices from the dump (no page/short-line cleanup). Only PER entities are masked in livros_sem_nomes; NER is imperfect.",
+  "books": [
+    {
+      "title": "A Mão e a Luva",
+      "slug": "a_mao_e_a_luva",
+      "raw_title_in_dump": "A MÃO E A LUVA",
+      "start_line": 2,
+      "end_line": 11717,
+      "n_lines": 11716,
+      "n_chars": 868938,
+      "n_nome_tokens": 3410,
+      "file_com_nomes": "livros_com_nomes/a_mao_e_a_luva.txt",
+      "file_sem_nomes": "livros_sem_nomes/a_mao_e_a_luva.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Dom Casmurro",
+      "slug": "dom_casmurro",
+      "raw_title_in_dump": "DOM CASMURRO",
+      "start_line": 55246,
+      "end_line": 65450,
+      "n_lines": 10205,
+      "n_chars": 643460,
+      "n_nome_tokens": 2923,
+      "file_com_nomes": "livros_com_nomes/dom_casmurro.txt",
+      "file_sem_nomes": "livros_sem_nomes/dom_casmurro.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Esaú e Jacó",
+      "slug": "esau_e_jaco",
+      "raw_title_in_dump": "ESAÚ E JACÓ",
+      "start_line": 65451,
+      "end_line": 84589,
+      "n_lines": 19139,
+      "n_chars": 1275298,
+      "n_nome_tokens": 4780,
+      "file_com_nomes": "livros_com_nomes/esau_e_jaco.txt",
+      "file_sem_nomes": "livros_sem_nomes/esau_e_jaco.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Helena",
+      "slug": "helena",
+      "raw_title_in_dump": "HELENA",
+      "start_line": 102919,
+      "end_line": 111392,
+      "n_lines": 8474,
+      "n_chars": 566866,
+      "n_nome_tokens": 2709,
+      "file_com_nomes": "livros_com_nomes/helena.txt",
+      "file_sem_nomes": "livros_sem_nomes/helena.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Iaiá Garcia",
+      "slug": "iaia_garcia",
+      "raw_title_in_dump": "IAIÁ GARCIA",
+      "start_line": 120541,
+      "end_line": 134593,
+      "n_lines": 14053,
+      "n_chars": 905793,
+      "n_nome_tokens": 5434,
+      "file_com_nomes": "livros_com_nomes/iaia_garcia.txt",
+      "file_sem_nomes": "livros_sem_nomes/iaia_garcia.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Memorial de Aires",
+      "slug": "memorial_de_aires",
+      "raw_title_in_dump": "MEMORIAL DE AIRES",
+      "start_line": 139316,
+      "end_line": 151330,
+      "n_lines": 12015,
+      "n_chars": 837627,
+      "n_nome_tokens": 2862,
+      "file_com_nomes": "livros_com_nomes/memorial_de_aires.txt",
+      "file_sem_nomes": "livros_sem_nomes/memorial_de_aires.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Memórias Póstumas de Brás Cubas",
+      "slug": "memorias_postumas_de_bras_cubas",
+      "raw_title_in_dump": "MEMÓRIAS PÓSTUMAS DE BRÁS CUBAS",
+      "start_line": 151331,
+      "end_line": 180926,
+      "n_lines": 29596,
+      "n_chars": 1740027,
+      "n_nome_tokens": 6827,
+      "file_com_nomes": "livros_com_nomes/memorias_postumas_de_bras_cubas.txt",
+      "file_sem_nomes": "livros_sem_nomes/memorias_postumas_de_bras_cubas.txt",
+      "spacy_model": "pt_core_news_lg"
+    },
+    {
+      "title": "Quincas Borba",
+      "slug": "quincas_borba",
+      "raw_title_in_dump": "QUINCAS BORBA",
+      "start_line": 251119,
+      "end_line": 268622,
+      "n_lines": 17504,
+      "n_chars": 1129318,
+      "n_nome_tokens": 4702,
+      "file_com_nomes": "livros_com_nomes/quincas_borba.txt",
+      "file_sem_nomes": "livros_sem_nomes/quincas_borba.txt",
+      "spacy_model": "pt_core_news_lg"
+    }
+  ]
+}

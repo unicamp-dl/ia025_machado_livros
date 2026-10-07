@@ -1,0 +1,15 @@
+[project]
+name = "machado-livros"
+version = "0.1.0"
+description = "Split Projeto Machado dump into one raw .txt per main novel (with/without PER names)."
+requires-python = ">=3.11"
+dependencies = [
+    "pt-core-news-lg",
+    "spacy>=3.8",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+pt-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.8.0/pt_core_news_lg-3.8.0-py3-none-any.whl" }
